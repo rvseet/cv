@@ -6,7 +6,9 @@
 /* Styles for the body */
 
 body {
-	font-family: Lato, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+body {
+    font-family: "Courier New", Courier, monospace;
+}
 	color: #202030;
 	background-color: #f8f8fc;
 }
@@ -14,7 +16,7 @@ body {
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
-    background-color: #e0f0ff;
+    background-color: #ffe4e4;
 }
 
 .resume-main {
@@ -22,7 +24,7 @@ body {
 }
 
 .resume-aside {
-	background-color: #fff0e0;
+	background-color: #fff9e3;
 }
 
 /* Styles for lists in the document */
@@ -36,7 +38,7 @@ body {
 }
 
 .biography-details li::before {
-	color: #EE7623;
+	color: #EBCCE4;
 }
 
 .biography-details li, .skill-list li {
