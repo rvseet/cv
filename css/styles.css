@@ -7,31 +7,27 @@
 /* Styles for the body */
 
 body {
-body {
-    font-family: "Courier New", Courier, monospace;
-}
-	color: #202030;
-	background-color: #f8f8fc;
+
 }
 
 h1 { 
 font-family: "Oswald", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: 700;
   font-style: normal;
 }
 
 h2 { 
  font-family: "Oswald", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: 700;
   font-style: normal;
 }
 
 h4 { 
  font-family: "Oswald", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: 900;
   font-style: normal;
 }
 
