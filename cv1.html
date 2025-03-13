@@ -15,7 +15,7 @@
     <!-- Links to our additional CSS styles -->
     <link rel="stylesheet" href="css/styles.css">
 
-    <title>Firstname Lastname's Resumé</title>
+    <title>Renske van Seeters Resumé</title>
   </head>
   <!-- End of the head -->
 
@@ -28,8 +28,7 @@
       The "my-sm-4" class adds a margin (m) vertical (y) at sizes small (-sm-) and above, of 4 x 6 pixels
       The "resume-container" class doesn't come from Bootstrap, you can use it for your own styles
     -->
-    <div class="container shadow-lg my-sm-4 resume-container">
-
+ 
       <!--
         <header> is a semantic element: it works exactly like <div>, but it gives information about the role of the code below.
         The "row" class is used for the Bootstrap grid.
@@ -60,12 +59,12 @@
         Biography and other details will be on top of each other at sizes XS and S, then next to each other.
         Use the "flex-row-reverse" class here to swap the columns around.
       -->
-      <div class="row resume-bottom">
 
         <!--
           <main> is another semantic element. It will contain biographical info (professional experience and education).
         -->
-        <main class="col-md-7 col-lg-8 col-xl-9 resume-main">
+	  <div class="row">
+	  <main class="col-md-7 col-lg-8 col-xl-9 resume-main">
 
           <!--
             <section> is yet another semantic element. The first one is for professional experience.
@@ -117,7 +116,7 @@
                   </ul>
                 </div>
               </li>
-			  </ul>
+		    </ul>
                   <!-- This entry doesn't have a list of achievements, but you can copy-paste the one from above -->
           </section>
 
@@ -170,168 +169,144 @@
           We now move on to the column with contact details, languages and other skills
           <aside> is also a semantic element.
         -->
-        <aside class="col-md-5 col-lg-4 col-xl-3 resume-aside">
+       <aside class="col-md-5 col-lg-4 col-xl-3 resume-aside">
 
-          <!-- The first block will be contact details -->
-          <section class="my-3 aside-section">
-            <h2>Contact</h2>
-            <!--
-              A list of all your contact details.
-              There are more icons in the images/icons folder, have a look if you want to add your LinkedIn or TikTok profile.
-              Be careful and only put channels through which you really want to be contacted.
-              If your phone number is your personal one, you may want to remove it!
-            -->
-            
-    <section>  
-		<ul/>
- <ul class="contact-list list-unstyled">
-				<li class="contact-item">
-                <a class="d-flex align-items-center" href="https://www.tiktok.com/@bredauniversityas" target="_blank">
-                  <img class="contact-icon" src="images/icons/phone.svg" alt="Mobile Phone">
-                  06-58871260
-                </a>
-              </li>
-  <li class="contact-item">
-    <a class="d-flex align-items-center" href="mailto:email@buas.nl" target="_blank">
-                  <img class="contact-icon" src="images/icons/envelope.svg" alt="Email">
-                 234457@buas.nl
-    </a>
-  </li>	  
-				<li class="contact-item">
-                <a class="d-flex align-items-center" href="https://www.linkedin.com/in/renske-van-seeters-1813a12a2/" target="_blank">
-                  <img class="contact-icon" src="images/icons/linkedin.svg" alt="Mobile Phone">
-                  Renske van Seeters
-                </a>
-              </li>		  
-		    <ul class="contact-list list-unstyled">
-              <li class="contact-item">
-                <a class="d-flex align-items-center" href="https://www.instagram.com/renskevanseeters/" target="_blank">
-                  <img class="contact-icon" src="images/icons/instagram.svg"  alt="Email">
-                Renske van Seeters </a>
-              </li> 	
-		  </ul>
-          </section>
-
-          <!-- End of contact details, moving on to languages -->
-
+  <!-- Contact Details -->
   <section class="my-3 aside-section">
-            <h2>Languages</h2>
-            <!-- Each item in the list is a language. Modify, add or remove depending on what you speak -->
-            <ul class="language-list list-unstyled">
-              <li class="language-item d-flex mb-1">
-                <h5 class="language-name w-50">Dutch</h5>
-                <div class="language-level w-50 border border-info border-2 position-relative">
-                  <!-- The div below is a progress bar. Choose between w-25, w-50, w-75 and w-100 to show your level of fluency -->
-                  <div class="language-progress position-absolute bg-custom h-100 w-100"></div>
-                  <h6 class="position-absolute w-100 text-center top-0 py-1">Native</h6>
-                </div>
-              </li>
-              <li class="language-item d-flex mb-1">
-                <h5 class="language-name w-50">English</h5>
-                <div class="language-level w-50 border border-info border-2 position-relative">
-                  <!-- The div below is a progress bar. Choose between w-25, w-50, w-75 and w-100 to show your level of fluency -->
-                  <div class="language-progress position-absolute bg-custom h-100 w-75"></div>
-                  <h6 class="position-absolute w-100 text-center top-0 py-1">Full proficiency</h6>
-                </div>
-              </li>
-				 <li class="language-item d-flex mb-1">
-                <h5 class="language-name w-50">Spanish</h5>
-                <div class="language-level w-50 border border-info border-2 position-relative">
-                  <!-- The div below is a progress bar. Choose between w-25, w-50, w-75 and w-100 to show your level of fluency -->
-                  <div class="language-progress position-absolute bg-custom h-100 w-25"></div>
-                  <h6 class="position-absolute w-100 text-center top-0 py-1">Beginner</h6>
-                </div>
-              </li>
-              <li class="language-item d-flex mb-1">
-                <h5 class="language-name w-50">French</h5>
-                <div class="language-level w-50 border border-info border-2 position-relative">
-                  <!-- The div below is a progress bar. Choose between w-25, w-50, w-75 and w-100 to show your level of fluency -->
-                  <div class="language-progress position-absolute bg-custom h-100 w-25
-							  "></div>
-                  <h6 class="position-absolute w-100 text-center top-0 py-1">Beginner
-				  </h6>
-                </div>
-              </li>
-              <li class="language-item d-flex mb-1">
-                <h5 class="language-name w-50">German</h5>
-                <div class="language-level w-50 border border-info border-2 position-relative">
-                  <!-- The div below is a progress bar. Choose between w-25, w-50, w-75 and w-100 to show your level of fluency -->
-                  <div class="language-progress position-absolute bg-custom h-100 w-25"></div>
-                  <h6 class="position-absolute w-100 text-center top-0 py-1">Beginner</h6>
-                </div>
-              </li>
-            </ul>
-</section>		  
-<h2>Adobe</h2>
-            <!-- Each item in the list is a language. Modify, add or remove depending on what you speak -->
-   <section>
-		  <ul class="adobe-list list-unstyled">
-              <li class="adobe-item d-flex mb-1">
-                <h5 class="adobe-name w-50">Illustrator</h5>
-                <div class="adobe-level w-50 border border-info border-2 position-relative">
-                  <!-- The div below is a progress bar. Choose between w-25, w-50, w-75 and w-100 to show your level of fluency -->
-                  <div class="adobe-progress position-absolute bg-custom h-100 w-75"></div>
-                  <h6 class="position-absolute w-100 text-center top-0 py-1">Full proficiency&nbsp;</h6>
-                </div>
-              </li>
-              <li class="adobe-item d-flex mb-1">
-                <h5 class="adobe-name w-50">Premiere Pro</h5>
-                <div class="adobe-level w-50 border border-info border-2 position-relative">
-                  <!-- The div below is a progress bar. Choose between w-25, w-50, w-75 and w-100 to show your level of fluency -->
-                  <div class="adobe-progress position-absolute bg-custom h-100 w-50"></div>
-                  <h6 class="position-absolute w-100 text-center top-0 py-1">Intermediate&nbsp;</h6>
-                </div>
-              </li>
-				 <li class="adobe-item d-flex mb-1">
-                <h5 class="adobe-name w-50">Photoshop&nbsp;</h5>
-                <div class="adobe-level w-50 border border-info border-2 position-relative">
-                  <!-- The div below is a progress bar. Choose between w-25, w-50, w-75 and w-100 to show your level of fluency -->
-                  <div class="adobe-progress position-absolute bg-custom h-100 w-25"></div>
-                  <h6 class="position-absolute w-100 text-center top-0 py-1">Beginner</h6>
-                </div>
-              </li>
-              <li class="adobe-item d-flex mb-1">
-                <h5 class="adobe-name w-50">Audition</h5>
-                <div class="adobe-level w-50 border border-info border-2 position-relative">
-                  <!-- The div below is a progress bar. Choose between w-25, w-50, w-75 and w-100 to show your level of fluency -->
-                  <div class="adobe-progress position-absolute bg-custom h-100 w-25
-							  "></div>
-                  <h6 class="position-absolute w-100 text-center top-0 py-1">Beginner
-				  </h6>
-                </div>
-              </li>
-              <li class="adobe-item d-flex mb-1">
-                <h5 class="adobe-name w-50">Dreamweaver</h5>
-                <div class="adobe-level w-50 border border-info border-2 position-relative">
-                  <!-- The div below is a progress bar. Choose between w-25, w-50, w-75 and w-100 to show your level of fluency -->
-                  <div class="adobe-progress position-absolute bg-custom h-100 w-25"></div>
-                  <h6 class="position-absolute w-100 text-center top-0 py-1">Beginner</h6>
-                </div>
-              </li>
-  </ul>
+    <h2>Contact</h2>
+    <ul class="contact-list list-unstyled">
+      <li class="contact-item">
+        <a class="d-flex align-items-center" href="https://www.tiktok.com/@bredauniversityas" target="_blank">
+          <img class="contact-icon" src="images/icons/phone.svg" alt="Mobile Phone">
+          06-58871260
+        </a>
+      </li>
+      <li class="contact-item">
+        <a class="d-flex align-items-center" href="mailto:email@buas.nl" target="_blank">
+          <img class="contact-icon" src="images/icons/envelope.svg" alt="Email">
+          234457@buas.nl
+        </a>
+      </li>	  
+      <li class="contact-item">
+        <a class="d-flex align-items-center" href="https://www.linkedin.com/in/renske-van-seeters-1813a12a2/" target="_blank">
+          <img class="contact-icon" src="images/icons/linkedin.svg" alt="LinkedIn"> 
+          Renske van Seeters
+        </a>
+      </li>		  
+      <li class="contact-item"> 
+        <a class="d-flex align-items-center" href="https://www.instagram.com/renskevanseeters/" target="_blank">
+          <img class="contact-icon" src="images/icons/instagram.svg" alt="Instagram"> 
+          Renske van Seeters
+        </a>
+      </li> 	
+    </ul> 
+  </section> <!-- End of Contact Section -->
+
+  <!-- Languages -->
+  <section class="my-3 aside-section">
+    <h2>Languages</h2>
+    <ul class="language-list list-unstyled">
+      <li class="language-item d-flex mb-1">
+        <h5 class="language-name w-50">Dutch</h5>
+        <div class="language-level w-50 border border-info border-2 position-relative">
+          <div class="language-progress position-absolute bg-custom h-100 w-100"></div>
+          <h6 class="position-absolute w-100 text-center top-0 py-1">Native</h6>
+        </div>
+      </li>
+      <li class="language-item d-flex mb-1">
+        <h5 class="language-name w-50">English</h5>
+        <div class="language-level w-50 border border-info border-2 position-relative">
+          <div class="language-progress position-absolute bg-custom h-100 w-75"></div>
+          <h6 class="position-absolute w-100 text-center top-0 py-1">Full proficiency</h6>
+        </div>
+      </li>
+	 <li class="language-item d-flex mb-1">
+        <h5 class="language-name w-50">Spanish</h5>
+        <div class="language-level w-50 border border-info border-2 position-relative">
+          <div class="language-progress position-absolute bg-custom h-100 w-25"></div>
+          <h6 class="position-absolute w-100 text-center top-0 py-1">Beginner</h6>
+        </div>
+      </li>
+	 <li class="language-item d-flex mb-1">
+        <h5 class="language-name w-50">French</h5>
+        <div class="language-level w-50 border border-info border-2 position-relative">
+          <div class="language-progress position-absolute bg-custom h-100 w-25"></div>
+          <h6 class="position-absolute w-100 text-center top-0 py-1">Beginner</h6>
+        </div>
+      </li>
+	 <li class="language-item d-flex mb-1">
+        <h5 class="language-name w-50">German</h5>
+        <div class="language-level w-50 border border-info border-2 position-relative">
+          <div class="language-progress position-absolute bg-custom h-100 w-25"></div>
+          <h6 class="position-absolute w-100 text-center top-0 py-1">Beginner</h6>
+        </div>
+      </li>
+    </ul>
+  </section> <!-- End of Languages Section -->
+
+  <!-- Adobe Skills -->
+  <section class="my-3 aside-section">
+    <h2>Adobe</h2>
+    <ul class="adobe-list list-unstyled">
+      <li class="adobe-item d-flex mb-1">
+        <h5 class="adobe-name w-50">Illustrator</h5>
+        <div class="adobe-level w-50 border border-info border-2 position-relative">
+          <div class="adobe-progress position-absolute bg-custom h-100 w-75"></div>
+          <h6 class="position-absolute w-100 text-center top-0 py-1">Full proficiency</h6>
+        </div>
+      </li>
+      <li class="adobe-item d-flex mb-1">
+        <h5 class="adobe-name w-50">Premiere pro</h5>
+        <div class="adobe-level w-50 border border-info border-2 position-relative">
+          <div class="adobe-progress position-absolute bg-custom h-100 w-50"></div>
+          <h6 class="position-absolute w-100 text-center top-0 py-1">Intermediate</h6>
+        </div>
+      </li>
+	<li class="adobe-item d-flex mb-1">
+        <h5 class="adobe-name w-50">Photoshop</h5>
+        <div class="adobe-level w-50 border border-info border-2 position-relative">
+          <div class="adobe-progress position-absolute bg-custom h-100 w-25"></div>
+          <h6 class="position-absolute w-100 text-center top-0 py-1">Beginner</h6>
+        </div>
+      </li>
+	<li class="adobe-item d-flex mb-1">
+        <h5 class="adobe-name w-50">Audition</h5>
+        <div class="adobe-level w-50 border border-info border-2 position-relative">
+          <div class="adobe-progress position-absolute bg-custom h-100 w-25"></div>
+          <h6 class="position-absolute w-100 text-center top-0 py-1">Beginner</h6>
+        </div>
+      </li>
+	<li class="adobe-item d-flex mb-1">
+        <h5 class="adobe-name w-50">Dreamweaver</h5>
+        <div class="adobe-level w-50 border border-info border-2 position-relative">
+          <div class="adobe-progress position-absolute bg-custom h-100 w-25"></div>
+          <h6 class="position-absolute w-100 text-center top-0 py-1">Beginner</h6>
+        </div>
+      </li>
+    </ul>
+  </section> <!-- End of Adobe Section -->
+
+  <!-- Other Skills -->
+  <section class="my-3 aside-section">
+    <h2>Other Skills</h2>
+    <ul class="skill-list list-unstyled">
+      <li class="skill-item">Driven team Worker</li>
+      <li class="skill-item">Driving Licence</li>
+    </ul>
   </section>
 
-          <!-- End of contact details, moving on to other skills -->
-
+  <!-- Interests & Hobbies -->
   <section class="my-3 aside-section">
-            <h2>Other Skills</h2>
-            <ul class="skill-list list-unstyled">
-              <li class="skill-item">Driven team Worker</li>
-              <li class="skill-item">Driving Licence</li>
-            </ul>
-          </section>
-
-          <!-- End of other skills, moving on to interest and hobbies -->
-
-         <section class="my-3 aside-section">
-            <h2>Interests &amp; Hobbies</h2>
-            <ul class="skill-list list-unstyled">
-              <li class="skill-item">Sports</li>
-              <li class="skill-item">Learning languages</li>
-              <li class="skill-item">Creating content</li>
-            </ul>
+    <h2>Interests &amp; Hobbies</h2>
+    <ul class="skill-list list-unstyled">
+      <li class="skill-item">Sports</li>
+      <li class="skill-item">Learning languages</li>
+      <li class="skill-item">Creating content</li>
+    </ul>
   </section>
 
+</aside> <!-- End of Aside Section -->
+  </div>
     <!-- And now, a footer! -->
  <footer class="bg-dark mt-sm-5 py-4 text-light">
   <p class="container text-end">
@@ -340,3 +315,5 @@
   </p>
 </footer>
 
+</body>
+</html>			  
