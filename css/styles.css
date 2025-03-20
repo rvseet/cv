@@ -32,7 +32,9 @@ h4 {
 }
 
 h5 { 
- 
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: #2f3918; 
 }
 
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
